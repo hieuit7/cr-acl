@@ -10,7 +10,6 @@
     "bower": "~1"
   },
   "scripts": {
-    "postinstall": "bower install",
     "test": "karma start --single-run"
   },
   "description": "[![Build Status](https://travis-ci.org/ngutils/cr-acl.svg?branch=master)](https://travis-ci.org/ngutils/cr-acl)",
