@@ -1,16 +1,28 @@
 {
-    "name": "cr-acl",
-    "version": "0.5.0",
-    "devDependencies": {
-        "karma": "~0.12",
-        "karma-cli": "~0",
-        "karma-phantomjs-launcher": "~0",
-        "karma-jasmine": "~0.2.*",
-        "phantomjs": "~1.9",
-        "bower": "~1"
-    },
-    "scripts": {
-        "postinstall" : "./node_modules/.bin/bower install",
-        "test": "./node_modules/.bin/karma start --single-run"
-    }
+  "name": "cr-acl-npm",
+  "version": "0.5.0",
+  "devDependencies": {
+    "karma": "~0.12",
+    "karma-cli": "~0",
+    "karma-phantomjs-launcher": "~0",
+    "karma-jasmine": "~0.2.*",
+    "phantomjs": "~1.9",
+    "bower": "~1"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "karma start --single-run"
+  },
+  "description": "[![Build Status](https://travis-ci.org/ngutils/cr-acl.svg?branch=master)](https://travis-ci.org/ngutils/cr-acl)",
+  "main": "cr-acl.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieuit7/cr-acl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieuit7/cr-acl/issues"
+  },
+  "homepage": "https://github.com/hieuit7/cr-acl#readme"
 }
